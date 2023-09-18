@@ -4,7 +4,7 @@
 ## Теми
 **Теория**
 - [Тема 0: Структура на курса по операционни системи](./theory/00-course-structure)
-- [Тема 1: История на компютърните системи](./theory/01-computer-systems-history)
+- [Тема 1: История и структура на компютърните системи](./theory/01-computer-systems-history-and-structure)
 
 **Практика**
 - TBA
