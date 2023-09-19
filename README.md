@@ -11,10 +11,10 @@
 
 ##  Редурси за курса
 - Курс в Google Classroom<br>
-TBA
+[TBA](https://youtu.be/dQw4w9WgXcQ)
 
 - GitHub хранилище<br>
-https://github.com/angel-penchev/os-tues-2023-2024
+https://github.com/angel-penchev/os-tues-2023-2024 (oh wait, you're already here 😅)
 
 - Контакт
     - apenchev@elsys-bg.org (soon enough™️)
