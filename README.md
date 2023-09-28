@@ -7,7 +7,8 @@
 - [Тема 1: История и структура на компютърните системи](./theory/01-computer-systems-history-and-structure)
 
 **Практика**
-- TBA
+- [Тема 1: Въведение в Linux. Указатели, динамична памет и разпределение на паметта.](./practice/01-memory/)
+- [Тема 2: Работа с файлове](./practice/02-file-descriptors/)
 
 ##  Редурси за курса
 - Курс в Google Classroom<br>
