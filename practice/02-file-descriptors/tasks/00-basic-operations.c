@@ -11,12 +11,12 @@ int main(int argc, char const *argv[]) {
         return -1;
     }
 
-
     char buf;
     if (read(fd, &buf, sizeof(char)) == -1) {
         printf("error read()\n");
         return -1;
     }
+
     write(STDOUT_FILENO, &buf, sizeof(char));
     lseek(fd, 1, SEEK_SET);
     
@@ -24,7 +24,6 @@ int main(int argc, char const *argv[]) {
         printf("error close()\n");
         return -1;
     }
-
 
     return 0;
 }
