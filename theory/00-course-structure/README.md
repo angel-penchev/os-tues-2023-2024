@@ -1,4 +1,3 @@
-
 # Тема 0: Структура на курса по операционни системи
 
 1. Структура на курса
@@ -75,14 +74,16 @@
 
 3. Редурси за курса
     - Курс в Google Classroom<br>
-    [TBA](https://youtu.be/dQw4w9WgXcQ)
+    [Линк](https://classroom.google.com/u/4/c/NjI3MjQzNjc1MDA1)
 
     - GitHub хранилище<br>
-    https://github.com/angel-penchev/os-tues-2023-2024 (oh wait, you're already here 😅)
+    [https://github.com/angel-penchev/os-tues-2023-2024](https://youtu.be/dQw4w9WgXcQ) (oh wait, you're already here 😅)
 
     - Контакт
-        - apenchev@elsys-bg.org (soon enough™️)
+        - apenchev@elsys-bg.org
         - angel.penchev.tsb@gmail.com
         - [angel@penchev.dev](mailto:angel@penchev.dev)
 
-4. Относно седмицата 16.10. - 22.10.
+4. Източници и благодарности
+    - lubo.elsys.bg - презентации от минали години по ОС
+    - @kokostech - за записките му по ОС от миналата година
