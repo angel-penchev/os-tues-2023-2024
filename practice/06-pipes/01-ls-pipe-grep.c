@@ -20,10 +20,10 @@ int main(int argc, char const *argv[]) {
         // Parent
         // grep
 
-        // waitpid(pid, NULL, 0);
-
         // close write end of pipe, because it won't be used
         close(pipefd[1]);
+
+        waitpid(pid, NULL, 0);
 
         // eqivalent to dup2 below:
         //
@@ -32,6 +32,8 @@ int main(int argc, char const *argv[]) {
 
 
         dup2(pipefd[0], STDIN_FILENO);
+        close(pipefd[0]);
+
         if (execlp("grep", "grep", ".c", NULL) == -1) {
             perror("exec grep");
         }
@@ -50,6 +52,8 @@ int main(int argc, char const *argv[]) {
         // dup(pipefd[1]);
 
         dup2(pipefd[1], STDOUT_FILENO); // dup2 closes stdout automatically
+        close(pipefd[1]);
+
         if (execlp("ls", "ls", "-la", NULL) == -1) {
             perror("exec ls");
         }
